@@ -4,7 +4,6 @@ import Footer from "./components/Footer/Footer";
 // pagini
 import Homepage from "./pages/Homepage";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import { div } from "framer-motion/client";
 
 const Layout = () => (
   <>
