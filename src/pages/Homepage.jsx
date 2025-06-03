@@ -1,14 +1,14 @@
-import { useTranslation } from "react-i18next";
 import Hero from "./Hero.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
-const Homepage = () => {
-  const { t } = useTranslation("Home");
+import OurSchool from "./OurSchool.jsx";
 
+const Homepage = () => {
   return (
     <div>
       <Hero />
       <About />
+      <OurSchool />
       <Contact />
     </div>
   );

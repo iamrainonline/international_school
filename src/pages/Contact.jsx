@@ -263,7 +263,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-lg shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-lg shadow-xl transition-all duration-300 transform  flex items-center justify-center group"
                 >
                   <svg
                     className="w-5 h-5 mr-2 group-hover:translate-x-1 transition-transform"

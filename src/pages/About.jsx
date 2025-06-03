@@ -248,7 +248,7 @@ const About = () => {
                 key={index}
                 className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-blue-300 transition-all duration-300 hover:shadow-lg group"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center text-white mb-6  transition-transform duration-300">
                   {value.icon}
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-4">
@@ -274,7 +274,7 @@ const About = () => {
               )}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center group">
+              <button className="px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition-all duration-300 transform  flex items-center justify-center group">
                 <svg
                   className="w-5 h-5 mr-2 group-hover:translate-x-1 transition-transform"
                   fill="currentColor"
@@ -290,7 +290,7 @@ const About = () => {
               </button>
               <button className="px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold rounded-lg transition-all duration-300 flex items-center justify-center group">
                 <svg
-                  className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform"
+                  className="w-5 h-5 mr-2  transition-transform"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
